@@ -1,0 +1,10 @@
+Qwen3.5-2B (GGUF) - redistribué par Lomirbac Studio Applications pour l'application Latente
+
+Œuvre d'origine : Qwen/Qwen3.5-2B, révision 15852e8c
+Copyright Alibaba Cloud (équipe Qwen). Licence Apache License 2.0 (voir LICENSE).
+
+Modifications apportées par Lomirbac Studio Applications (31/10/2026) :
+- conversion des safetensors au format GGUF avec convert_hf_to_gguf.py de llama.cpp, tag b11577 ;
+- quantification du modèle de langue en Q4_K_M avec llama-quantize, tag b11577 ;
+- projecteur d'images (mmproj) converti en F16, non quantifié.
+Aucun réentraînement ni ajustement des poids.
